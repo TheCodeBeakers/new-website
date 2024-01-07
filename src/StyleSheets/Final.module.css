@@ -1,0 +1,125 @@
+.head {
+    height: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: #ffffff6c; */
+    align-items: center;
+}
+
+.headText {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    /* background-color: #ffffff6c; */
+    align-items: center;
+    width: 89%;
+    /* padding: 1rem; */
+    color: var(--secondarytext);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+#domains{
+    height: 250vh;
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+}
+#domains
+.domCont{
+    height: 93%;
+    width: 85%;
+    /* border: 2px solid red; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+    overflow: hidden;
+}
+.domCont>div{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+}
+/* .doms4 , .doms2{
+    justify-content: flex-end !important;
+    animation: dom24 2s forwards;
+}*/
+.doms3 > .doms , .doms1 > .doms{
+    flex-direction: row-reverse;
+
+} 
+
+.doms{
+    /* border: 2px solid #4fc0be; */
+    height: 80%;
+    width: 97%;
+    /* border: 2px solid red; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.domLeft{
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid red; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+}
+
+.domLeft>img{
+    height: 90%;
+    aspect-ratio: 1;
+    filter: drop-shadow( 4px 7px 40px rgba(3, 225, 255, 0.25));
+    transition: all 0.3s ;
+}
+.domLeft>img:hover{
+    filter: drop-shadow( 4px 7px 40px rgba(3, 226, 255, 0.693));
+}
+.domRight{
+    height: 80%;
+    width: 60%;
+    display: flex;  
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    background: var(--cardcolor);
+    padding: 25px;
+    border-radius: 30px;
+    border-right: 1;
+    transition: all 0.3s ;
+}
+.domRight:hover{
+    border : 1px solid rgba(0, 177, 247, 0.937);
+}
+.domRight> h1{
+    color: var(--secondarytext);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: start;
+    border-bottom: 1px solid var(--bordercolor);
+    padding: 4px;
+}
+.domRight>p{
+    color: var(--tertiarytext);
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size:16px;
+    text-align: justify;
+}

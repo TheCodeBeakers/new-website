@@ -1,0 +1,63 @@
+#main {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.slideWrap {
+    height: 80%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 100%);
+    overflow-x: auto;
+}
+
+.slide1,
+.slide2,
+.slide3 {
+    height: 100%;
+    width: 90%;
+    background: var(--cardcolor);
+    border: 2px solid rgba(98, 98, 98, 0.487);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide1 h1{
+    background: linear-gradient(270deg, #9BFFFF 9.26%, #3FFFFF 27.77%, #6BDBD8 48.19%, #2FBEBB 64.52%, #027498 83.12%, #036 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Viga', sans-serif;
+}
+.slide1 p{
+    text-align: center;
+    color: var(--secondarytext);
+    font-family: 'IBM plex mono';
+}
+
+.slider {
+    height: 1.5%;
+    width: 90%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.dots {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #ffffff6c;
+    margin: 0px 2px;
+}

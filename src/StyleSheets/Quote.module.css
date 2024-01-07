@@ -1,0 +1,24 @@
+.quote{
+    height: 10vh;
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.quoteText{
+    height: 100%;
+    width: 90%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size:26px;
+    border-radius: 20px;
+    background-color: var(--quotebg);
+    color: var(--quotecolor);
+
+}

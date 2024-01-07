@@ -1,0 +1,130 @@
+#whatWeDo {
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    height: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: #ffffff6c; */
+    align-items: center;
+}
+
+.headText {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    /* background-color: #ffffff6c; */
+    align-items: center;
+    width: 89%;
+    /* padding: 1rem; */
+    color: var(--secondarytext);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.WeDoCards {
+    height: 98%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .weDoWrap {
+    height: 95%;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.weDoWrap>div {
+    background: var(--cardcolor);
+    border-bottom: 4px solid rgb(0, 128, 255);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.294);
+    border-left: 1px solid rgba(255, 255, 255, 0.294);
+    border-right: 1px solid rgba(255, 255, 255, 0.294); */
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 94%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+} */ 
+
+
+.cards{
+    width: 90%;
+    height: 95%;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    grid-template-rows: repeat(2, 0.8fr);
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+    place-items: center;
+}
+.cards>div{
+    height: 80%;
+    width: 86%;
+    /* border: 2px solid red; */
+    border-bottom: 2px solid var(--bordercolor);
+    background-color: var(--cardcolor);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+    overflow: hidden;
+    transition: all 0.3s ;
+}
+.cards>div:hover{
+    transform: scale(1.1);
+
+}
+.card > .icon{
+    height: 37%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card > .name{
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--secondarytext);
+
+}
+.card > .description{
+    padding: 2%;
+    height: 50%;
+    width: 80%;
+    border-top: 1px solid #748c96;
+    display: flex;
+    justify-content: center;
+    color: var(--tertiarytext);
+
+}
