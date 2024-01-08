@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../Assets/tcblogo.jpg';
-
 import Style from '../StyleSheets/Navbar.module.css';
 
 const NavBar = () => {
@@ -11,11 +10,11 @@ const NavBar = () => {
                 <div className={Style.logoCont}>
                     <div className={Style.logo}>
                         <img src={logo} alt="TCB Logo" />
-                        TheCodeBreakers
+                        <span className={Style.img_text}> TheCodeBreakers </span>
                     </div>
                 </div>
                 <nav >
-                    <ul>
+                    <ul className={Style.list}>
                         <li><a href="" className={Style.active}>Home</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Achievements</a></li>
@@ -23,6 +22,8 @@ const NavBar = () => {
                         <li><a href="">Others</a></li>
                     </ul>
                 </nav>
+                
+                <ham />
             </div>
         </header>
     )
