@@ -1,27 +1,34 @@
 import React from 'react';
-import Style from '../StyleSheets/Carousel.module.css';
+import Slider from 'react-slick';
+import team_img from 'D:/codebreakers/new-website/src/Assets/team.jpg';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import styles from 'D:/codebreakers/new-website/src/StyleSheets/Carousel.module.css';
 
 const Carousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
-    return(
-        <section id={Style.main}>            
-            <div className={Style.slideWrap}>
-                <div className={Style.slide1}>
-                    <div className={Style.mainHead}>
-                        <h1>The Code Breakers</h1>
-                        <p>Breaking Codes, Building minds</p>
-                    </div>
-                </div>
-                <div className={Style.slide2}></div>
-                <div className={Style.slide3}></div>
-            </div>
-            <div className={Style.slider}>
-                <div className={Style.dots}></div>
-                <div className={Style.dots}></div>
-                <div className={Style.dots}></div>
-            </div>
-        </section>
-    )
-}
+  return (
+    <div className={styles.carouselContainer}>
+      <Slider {...settings}>
+        <div>
+          <img className={styles.carouselImage} src={team_img} alt="Slide 1" />
+        </div>
+        <div>
+          <img className={styles.carouselImage} src="https://placekitten.com/800/401" alt="Slide 2" />
+        </div>
+        <div>
+          <img className={styles.carouselImage} src="https://placekitten.com/800/402" alt="Slide 3" />
+        </div>
+      </Slider>
+    </div>
+  );
+};
 
 export default Carousel;
