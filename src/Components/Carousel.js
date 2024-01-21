@@ -1,9 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick';
-import team_img from 'D:/codebreakers/new-website/src/Assets/team.jpg';
+import team_img from '../Assets/team.jpg';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import styles from 'D:/codebreakers/new-website/src/StyleSheets/Carousel.module.css';
+import styles from '../StyleSheets/Carousel.module.css';
 
 const Carousel = () => {
   const settings = {
