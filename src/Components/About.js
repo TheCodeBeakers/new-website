@@ -11,7 +11,7 @@ import Style from '../StyleSheets/About.module.css';
 
 const About = () => {
 
-    return(
+    return (
         <>
             <section id={Style.whatWeDo}>
                 <div className={Style.head}>
@@ -48,7 +48,7 @@ const About = () => {
                             </div>
                         </div>  <div className={Style.card}>
                             <div className={Style.icon}>
-                                <img src={communityIcon}alt="" />
+                                <img src={communityIcon} alt="" />
                             </div>
                             <div className={Style.name}>Community</div>
                             <div className={Style.description}>
@@ -71,7 +71,7 @@ const About = () => {
                                 Enabling any student, from any department, from any background, to learn and love programming, to an extent where they can step up to teach others
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>

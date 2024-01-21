@@ -68,7 +68,6 @@
 .imgContainer {
     height: 100%;
     width: 40%;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +80,7 @@
     transition: all 0.3s;
 }
 
-.imgContainer>img:hover {
+.imgContainer > img:hover {
     filter: drop-shadow(4px 7px 40px rgba(3, 226, 255, 0.693));
 }
 
@@ -91,7 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 10px;
+    gap: 1rem;
     flex-direction: column;
     background: var(--cardcolor);
     padding: 25px;
@@ -133,4 +132,5 @@
     letter-spacing: 1px;
     font-size: 16px;
     text-align: justify;
+    overflow: scroll;
 }

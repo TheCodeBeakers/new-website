@@ -6,10 +6,10 @@ import web3_img from "../Assets/web3.png";
 import Styles from '../StyleSheets/Final.module.css';
 
 
-const Final = () => { 
+const Final = () => {
 
-    return(
-            <section id={Styles.domains}>
+    return (
+        <section id={Styles.domains}>
             <div className={Styles.head}>
                 <div className={Styles.headText}>
                     Domains Invited
@@ -35,9 +35,9 @@ const Final = () => {
                             <img src={ml_img} alt="" />
                         </div>
                         <div className={Styles.card}> <h1>Fullstack Web Development</h1>
-                        <p>
-                            Rome wasn't built in a day, and neither was our website. Learn state-of-the-art app building and end-to-end full-stack development with zero compromises. Do you have anything in particular you want to learn? No problem! Our team of developers have experience in various fields, and can help out whenever required.
-                        </p>
+                            <p>
+                                Rome wasn't built in a day, and neither was our website. Learn state-of-the-art app building and end-to-end full-stack development with zero compromises. Do you have anything in particular you want to learn? No problem! Our team of developers have experience in various fields, and can help out whenever required.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -59,9 +59,9 @@ const Final = () => {
                             <img src={web3_img} alt="" />
                         </div>
                         <div className={Styles.card}> <h1>Web 3.0</h1>
-                        <p>
-                            Web3 is a notion for a new version of the World Wide Web that integrates principles like decentralisation, blockchain technology, and token-based economy. Web3 development is a burgeoning new technology, and we have enthusiasts who have already begun working on blockchain, dapps, bitcoin, and so on. Join us in getting ready for the future!
-                        </p>
+                            <p>
+                                Web3 is a notion for a new version of the World Wide Web that integrates principles like decentralisation, blockchain technology, and token-based economy. Web3 development is a burgeoning new technology, and we have enthusiasts who have already begun working on blockchain, dapps, bitcoin, and so on. Join us in getting ready for the future!
+                            </p>
                         </div>
                     </div>
                 </div>
