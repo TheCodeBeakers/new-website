@@ -48,12 +48,13 @@
     place-self: center;
     place-items: center;
 }
+
 .cards>div{
     height: 80%;
     width: 86%;
-    border-bottom: 2px solid var(--bordercolor);
+    border-bottom: 7px solid var(--bordercolor);
     background-color: var(--cardcolor);
-    border-radius: 9px;
+    border-radius: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,10 +63,12 @@
     overflow: hidden;
     transition: all 0.3s ;
 }
+
 .cards>div:hover{
     transform: scale(1.1);
 
 }
+
 .card > .icon{
     height: 37%;
     width: 80%;
@@ -73,6 +76,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .card > .name{
     height: 10%;
     width: 80%;
@@ -84,6 +88,7 @@
     color: var(--secondarytext);
 
 }
+
 .card > .description{
     padding: 2%;
     height: 50%;

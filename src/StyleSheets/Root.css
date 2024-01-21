@@ -6,7 +6,7 @@
     --navbg: rgba(244, 248, 248, 0.06);
     --maincardcolor: rgba(255, 255, 255, 0.15);
     --quotebg: rgba(0, 114, 114, 0.06);
-    --quotecolor: rgba(6, 255, 255, 1);
+    --quotecolor: #00FFFF;
     --cardcolor: rgba(244, 248, 248, 0.06);
     --active: rgba(255, 255, 255, 1);
     --inactive: rgba(255, 255, 255, 0.67);
@@ -15,7 +15,7 @@
     --tertiarytext: rgba(255, 255, 255, 0.68);
     --svggradient: rgba(0, 138, 198, 1), rgba(0, 224, 255, 1), rgba(5, 85, 240, 1);
     --dropshadows: 4px 7px 100px 0px rgba(3, 225, 255, 0.25);
-    --bordercolor: rgb(3, 163, 255);
+    --bordercolor: #00FFFF;
 }
 
 * {

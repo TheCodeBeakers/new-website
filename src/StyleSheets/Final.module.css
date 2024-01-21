@@ -3,112 +3,122 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    /* background-color: #ffffff6c; */
     align-items: center;
 }
 
 .headText {
     height: 100%;
+    font-size: 2rem;
     display: flex;
     justify-content: start;
-    /* background-color: #ffffff6c; */
     align-items: center;
     width: 89%;
-    /* padding: 1rem; */
     color: var(--secondarytext);
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
-
-#domains{
+#domains {
     height: 250vh;
     width: 100%;
-    display: flex;  
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* border: 2px solid red; */
 
 }
-#domains
-.domCont{
+
+#domains .content   {
     height: 93%;
     width: 85%;
-    /* border: 2px solid red; */
-    display: flex;  
+
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2%;
     overflow: hidden;
 }
-.domCont>div{
+
+.content > div {
     height: 30%;
     width: 100%;
-    /* border: 2px solid red; */
-    display: flex;  
+
+    display: flex;
     justify-content: center;
     align-items: center;
 
 }
-/* .doms4 , .doms2{
-    justify-content: flex-end !important;
-    animation: dom24 2s forwards;
-}*/
-.doms3 > .doms , .doms1 > .doms{
+
+.leftAligned > .container {
     flex-direction: row-reverse;
 
-} 
+}
 
-.doms{
-    /* border: 2px solid #4fc0be; */
+.container {
     height: 80%;
     width: 97%;
-    /* border: 2px solid red; */
-    display: flex;  
+
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.domLeft{
+
+.imgContainer {
     height: 100%;
     width: 40%;
-    /* border: 2px solid red; */
-    display: flex;  
+
+    display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.domLeft>img{
+.imgContainer > img {
     height: 90%;
     aspect-ratio: 1;
-    filter: drop-shadow( 4px 7px 40px rgba(3, 225, 255, 0.25));
-    transition: all 0.3s ;
+    filter: drop-shadow(4px 7px 40px rgba(3, 225, 255, 0.25));
+    transition: all 0.3s;
 }
-.domLeft>img:hover{
-    filter: drop-shadow( 4px 7px 40px rgba(3, 226, 255, 0.693));
+
+.imgContainer>img:hover {
+    filter: drop-shadow(4px 7px 40px rgba(3, 226, 255, 0.693));
 }
-.domRight{
+
+.card {
     height: 80%;
     width: 60%;
-    display: flex;  
+    display: flex;
     justify-content: center;
     align-items: start;
     gap: 10px;
     flex-direction: column;
-    /* border: 2px solid red; */
     background: var(--cardcolor);
     padding: 25px;
-    border-radius: 30px;
-    border-right: 1;
-    transition: all 0.3s ;
+    transition: all 0.3s;
 }
-.domRight:hover{
-    border : 1px solid rgba(0, 177, 247, 0.937);
+
+.leftAligned > .container > .card {
+    border-left: 7px solid var(--bordercolor);
+    border-radius: 3rem;
 }
-.domRight> h1{
+
+.rightAligned > .container > .card {
+    border-right: 7px solid var(--bordercolor);
+    border-radius: 3rem;
+}
+
+.leftAligned > .container > .card:hover {
+    border-right: 7px solid var(--bordercolor);
+
+}
+
+.rightAligned > .container > .card:hover {
+    border-left: 7px solid var(--bordercolor);
+
+}
+
+.card > h1 {
     color: var(--secondarytext);
     font-weight: 600;
     letter-spacing: 1px;
@@ -116,10 +126,11 @@
     border-bottom: 1px solid var(--bordercolor);
     padding: 4px;
 }
-.domRight>p{
+
+.card > p {
     color: var(--tertiarytext);
     font-weight: 500;
     letter-spacing: 1px;
-    font-size:16px;
+    font-size: 16px;
     text-align: justify;
 }
