@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../Assets/tcblogo.jpg';
 import Style from '../StyleSheets/Navbar.module.css';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -15,8 +16,8 @@ const NavBar = () => {
                 </div>
                 <nav >
                     <ul className={Style.list}>
-                        <li><a href="" className={Style.active}>Home</a></li>
-                        <li><a href="">About</a></li>
+                        <li><Link to={"/"} className={Style.active}>Home</Link></li>
+                        <li><Link to={"/about"}>About</Link></li>
                         <li><a href="">Achievements</a></li>
                         <li><a href="">Events</a></li>
                         <li><a href="">Others</a></li>

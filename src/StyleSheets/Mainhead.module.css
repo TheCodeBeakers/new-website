@@ -1,0 +1,91 @@
+#mainHead {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headCont{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 50px;
+  color: rgba(255, 255, 255, 0.318);
+}
+.ltgt{
+    color: var(--quotecolor);
+    font-weight: 700;
+    font-size: 30px;
+}
+.headCont span{
+    font-weight: 900;
+    font-size: 100px;
+    background: linear-gradient(270deg, #9BFFFF 9.26%, #3FFFFF 27.77%, #6BDBD8 48.19%, #2FBEBB 64.52%, #027498 83.12%, #036 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* About */
+
+#about{
+    height: 100vh;
+    width: 100%;
+    /* background-color:var(--maincardcolor);/ */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.leftAbout {
+    width: 33%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LeftAboutCont{
+    height: 90%;
+    width: 90%;
+    background-image: url("../Assets/circle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: rgba(255, 255, 255, 0.967);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 90px;
+}
+.rightAbout{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+h1{
+    color: var(--secondarytext);
+    font-size: 40px;
+}
+p{
+    word-spacing: 2px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    color: var(--tertiarytext);
+}
+p>span{
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+}
