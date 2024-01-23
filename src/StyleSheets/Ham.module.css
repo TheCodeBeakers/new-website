@@ -1,0 +1,24 @@
+.hamBtn {
+    width: 53px;
+    height: 53px;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: -100vw;
+    top: 63px;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    z-index: 1;
+    transition: left 0.2s;
+    border-collapse: collapse;
+    padding-bottom: 10%;
+    font-size: 30px;
+}

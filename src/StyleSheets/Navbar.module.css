@@ -5,6 +5,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+
 }
 
 .headContent {
@@ -103,7 +107,7 @@ a:hover {
 @media screen and (max-width: 430px) {
     .headContent {
         position: absolute;
-        width: 430px;
+        width: 100vw;
         height: 63px;
         left: 0px;
         top: 0px;

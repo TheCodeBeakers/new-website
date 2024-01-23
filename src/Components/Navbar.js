@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../Assets/tcblogo.jpg';
 import Style from '../StyleSheets/Navbar.module.css';
 import { Link } from 'react-router-dom';
+import Ham from './Ham';
 
 const NavBar = () => {
 
@@ -14,7 +15,7 @@ const NavBar = () => {
                         <span className={Style.img_text}> TheCodeBreakers </span>
                     </div>
                 </div>
-                <nav >
+                {/* <nav >
                     <ul className={Style.list}>
                         <li><Link to={"/"} className={Style.active}>Home</Link></li>
                         <li><Link to={"/about"}>About</Link></li>
@@ -22,9 +23,9 @@ const NavBar = () => {
                         <li><a href="">Events</a></li>
                         <li><a href="">Others</a></li>
                     </ul>
-                </nav>
+                </nav> */}
                 
-                <ham />
+                <Ham />
             </div>
         </header>
     )
