@@ -28,8 +28,10 @@
 body {
     height: 400vh;
     background-color: var(--bgcolor);
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar{
     display: none;
+    -webkit-appearance: none;
 }
