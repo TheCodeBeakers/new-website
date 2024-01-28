@@ -8,14 +8,13 @@ header {
   position: sticky;
   top: 0;
   z-index: 3;
-
 }
 
 .headContent {
   height: 85%;
   width: 99%;
   /* border: 2px solid white; */
-  background-color: var(--navbg);
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,14 +103,13 @@ a:hover {
   font-weight: 500;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 1000px) {
     .headContent {
         position: absolute;
         width: 100vw;
         height: 63px;
         left: 0px;
         top: 0px;
-        background: rgba(244, 248, 248, 0.06);
         border-radius: 0%;
     }
 
@@ -129,10 +127,6 @@ a:hover {
 
     .list{
         display: none;
-    }
-    
-    .list{
-        
     }
     
   }

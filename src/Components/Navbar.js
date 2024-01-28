@@ -2,9 +2,12 @@ import React from 'react';
 import logo from '../Assets/tcblogo.jpg';
 import Style from '../StyleSheets/Navbar.module.css';
 import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive';
 import Ham from './Ham';
 
 const NavBar = () => {
+
+    const breakPoint = 1000;
 
     return(
         <header>
@@ -15,7 +18,9 @@ const NavBar = () => {
                         <span className={Style.img_text}> TheCodeBreakers </span>
                     </div>
                 </div>
-                {/* <nav >
+
+                <MediaQuery minWidth={breakPoint}>
+                <nav className={Style.visibleOnLargeScreen}>
                     <ul className={Style.list}>
                         <li><Link to={"/"} className={Style.active}>Home</Link></li>
                         <li><Link to={"/about"}>About</Link></li>
@@ -23,9 +28,13 @@ const NavBar = () => {
                         <li><a href="">Events</a></li>
                         <li><a href="">Others</a></li>
                     </ul>
-                </nav> */}
-                
-                <Ham />
+                </nav>
+                </MediaQuery>
+
+                <MediaQuery maxWidth={breakPoint}>
+                    <Ham />
+                </MediaQuery>
+
             </div>
         </header>
     )
