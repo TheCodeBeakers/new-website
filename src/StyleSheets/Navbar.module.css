@@ -1,7 +1,6 @@
 header {
   height: 12vh;
   width: 100%;
-  /* border: 2px solid white; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,12 +12,11 @@ header {
 .headContent {
   height: 85%;
   width: 99%;
-  /* border: 2px solid white; */
-  background-color: black;
+  background-color: var(--bgcolor);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 20px;
 }
 
 .logoCont {
@@ -87,7 +85,7 @@ nav ul li {
 
 nav ul li a {
   color: var(--inactive);
-  font-family: "Source Serif 4", serif;
+  font-family: var(--font);
   text-align: center;
   font-weight: 400;
   transition: all 0.1s;

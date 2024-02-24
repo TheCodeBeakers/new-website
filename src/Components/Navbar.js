@@ -14,7 +14,7 @@ const NavBar = () => {
             <div className={Style.headContent}>
                 <div className={Style.logoCont}>
                     <div className={Style.logo}>
-                        <img src={logo} alt="TCB Logo" />
+                        <img src={logo} alt="tcblogo" />
                         <span className={Style.img_text}> TheCodeBreakers </span>
                     </div>
                 </div>
@@ -24,9 +24,9 @@ const NavBar = () => {
                     <ul className={Style.list}>
                         <li><Link to={"/"} className={Style.active}>Home</Link></li>
                         <li><Link to={"/about"}>About</Link></li>
-                        <li><a href="">Achievements</a></li>
-                        <li><a href="">Events</a></li>
-                        <li><a href="">Others</a></li>
+                        <li><Link to={" "}>Achievements</Link></li>
+                        <li><Link to={" "}>Events</Link></li>
+                        <li><Link to={"/resources"}> Resources </Link></li>
                     </ul>
                 </nav>
                 </MediaQuery>

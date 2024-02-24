@@ -18,7 +18,7 @@
     top: 60px;
     display: flex;
     flex-direction: column;
-    background: black;
+    background: var(--bgcolor);
     z-index: 1;
     transition: transform 0.2s;
     border-collapse: collapse;
