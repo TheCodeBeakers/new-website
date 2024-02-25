@@ -28,12 +28,13 @@ const NavBar = () => {
                         <li><Link to={" "}>Events</Link></li>
                         <li><Link to={"/resources"}> Resources </Link></li>
                     </ul>
-                </nav>
+                </nav>   
                 </MediaQuery>
 
                 <MediaQuery maxWidth={breakPoint}>
                     <Ham />
                 </MediaQuery>
+            
 
             </div>
         </header>
